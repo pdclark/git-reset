@@ -7,14 +7,16 @@
 1. Verify your server allows access to PHP `exec()`. One good test is that if the plugin doesn't work, your server doesn't allow it. ;)
 1. Add this to your .htaccess file:
 
-```# Deny public access to .sql files.
+```
+# Deny public access to .sql files.
 # Claim File Not Found instead of "Forbidden" so file existance isn't revealed
 <Files ~ "\.sql$">
 	Order Deny,Allow
 	Allow from all
 	Satisfy All
 	Redirect 404 /
-</Files>```
+</Files>
+```
 
 # Usage
 
