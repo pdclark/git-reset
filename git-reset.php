@@ -1,36 +1,14 @@
 <?php
-
 /*
 Plugin Name: Git Reset
-Plugin URI: https://github.com/brainstormmedia/git-reset
+Plugin URI: https://github.com/10up/git-reset
 Description: Reset WordPress installs and database using Git. <strong>This plugin will cause data loss</strong>. The POINT of this plugin is to cause data loss! <em>Requirements:</em> Git installed on your server and being used to manage your WordPress installation. PHP allowed to run server commands via <code>exec()</code>. Non-senstive data, or deny access to <code>.sql</code> files via <code>.htaccess</code> (this plugin makes a database dump in your WordPress directory).
 Version: 1.0
-Author: Brainstorm Media
-Author URI: http://brainstormmedia.com 
+Author: Paul Clark, 10up
+Author URI: http://pdclark.com 
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-
-/**
- * Copyright (c) 2012 Brainstorm Media. All rights reserved.
- *
- * Released under the GPL license
- * http://www.opensource.org/licenses/gpl-license.php
- *
- * This is an add-on for WordPress
- * http://wordpress.org/
- *
- * **********************************************************************
- * This program is free software; you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 2 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * **********************************************************************
- */
-
 
 $Storm_Git_Reset = new Storm_Git_Reset();
 
