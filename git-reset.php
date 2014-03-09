@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Git Reset
-Plugin URI: https://github.com/10up/git-reset
+Plugin URI: https://github.com/brainstormmedia/git-reset
 Description: Reset WordPress installs and database using Git. <strong>This plugin will cause data loss</strong>. The POINT of this plugin is to cause data loss! <em>Requirements:</em> Git installed on your server and being used to manage your WordPress installation. PHP allowed to run server commands via <code>exec()</code>. Non-senstive data, or deny access to <code>.sql</code> files via <code>.htaccess</code> (this plugin makes a database dump in your WordPress directory).
 Version: 1.0
 Author: Paul Clark, 10up
